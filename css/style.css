@@ -301,7 +301,7 @@ Navigation
 
 .navbar-brand {
     font-weight: 700;
-	color:darkgray;
+	color:white;
 }
 
 .navbar-brand:focus {
@@ -337,7 +337,7 @@ Navigation
 .navbar-custom ul.nav li a {
 	font-size: 15px;
 	letter-spacing: 1px;
-    color: darkgray;
+    color: white;
 	font-weight: 700;
 	background: transparent;
 }
@@ -355,13 +355,14 @@ Navigation
 	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #444;
+	color: white;
 }
 
 
 .navbar-custom ul.nav ul.dropdown-menu {
 	border-radius: 0;	
 	margin-top: 16px;
+	background-color:#333;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
@@ -384,7 +385,7 @@ Navigation
 }
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #666;
+	color: white;
 }
 
 .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus  {
@@ -406,7 +407,6 @@ Navigation
 .navbar-custom.top-nav-collapse .nav li a:focus,
 .navbar-custom.top-nav-collapse .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
 }
 
 .navbar-toggle {
